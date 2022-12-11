@@ -2,7 +2,7 @@ import React from 'react'
 import { useState , useEffect , useRef} from 'react'
 export default function Home() {
   const [firstName , setFirstName ] = useState("")
-  const name = "Raghavan"
+  const name = "Raghavan..!"
   let index = useRef(0)
 
   useEffect(() => {
@@ -16,6 +16,7 @@ export default function Home() {
       return () => clearInterval(char)
     }
   },[firstName]) 
+  
   
   return (
     <div>
