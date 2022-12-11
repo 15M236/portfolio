@@ -1,21 +1,39 @@
 import React from 'react'
-
+import { useState , useEffect , useRef} from 'react'
 export default function Home() {
+  const [firstName , setFirstName ] = useState("")
+  const name = "Raghavan"
+  let index = useRef(0)
+
+  useEffect(() => {
+    function tick() {
+      setFirstName(firstName + name[index.current]);
+      console.log(firstName)
+      index.current++;
+    }
+    if(index.current < name.length){
+      let char = setInterval(tick,500)
+      return () => clearInterval(char)
+    }
+  },[firstName]) 
+  
   return (
     <div>
       <section className="resume-section" id="about">
                 <div className="resume-section-content">
                     <h1 className="mb-0">
-                        Raghavan
-                        <span className="text-primary">paramasivam</span>
+                        {firstName}
+                        {/* <span className="text-primary">{lastName}</span> */}
                     </h1>
                     <div className="subheading mb-5">
                         28/24 Thambi Kaliamman Kovil Street , 636001
-                        <a href="mailto:raghav8197@gmail.com">Mail to</a>
                         <br/>
                         <>Check out my resume - </>
                         <a href="https://stupendous-bombolone-6d079b.netlify.app/" 
                 target="_blank" rel="noreferrer">Resume</a>
+                        <br/>
+                        <>Click Right to send me mail</>
+                        <a href="mailto:raghav8197@gmail.com"> Mail to</a>
                     </div>
                     <p className="lead mb-5"></p>
                     <div className="social-icons">
