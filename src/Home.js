@@ -2,7 +2,7 @@ import React from 'react'
 import { useState , useEffect , useRef} from 'react'
 export default function Home() {
   const [firstName , setFirstName ] = useState("")
-  const name = "Raghavan..!"
+  const name = " Raghavan..!"
   let index = useRef(0)
 
   useEffect(() => {
@@ -49,12 +49,6 @@ export default function Home() {
 
                         <a className="social-icon" href="https://www.quora.com/profile/Raghavan-P-5" 
                         target="_blank" rel="noreferrer"><i className="fab fa-quora"></i></a>
-
-                        <a className="social-icon" href="https://www.youtube.com/channel/UC70qcuRJ0dFW54sjW-WQkBA"
-                        target="_blank" rel="noreferrer"><i className="fab fa-youtube"></i></a>
-                        
-                        <a className="social-icon" href="https://www.instagram.com/raghav_8197/"
-                        target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 
