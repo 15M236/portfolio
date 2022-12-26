@@ -20,19 +20,22 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to='/'>Home</Link></li>
-
-            <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to='/education'>Education</Link></li>
+              <Link className="nav-link js-scroll-trigger" to='/'>About</Link></li>
 
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to='/skills'>Skills</Link></li>
-
+            
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to='/projects'>Projects</Link></li>
 
             <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to='/education'>Experience</Link></li>
+
+            <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to='/interests'>Interests</Link></li>
+
+            <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to='/contact'>Contact</Link></li>
         </ul>
     </div>
 </nav>

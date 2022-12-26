@@ -24,11 +24,11 @@ export default function Skills() {
                     <div className="subheading mb-3">Programming Languages & Tools</div>
                     <ul className="list-inline-dev-icons">
                     {skillStack.map((el, index) => (
-                <span>
-                    <img alt="" src={el.link} className="w-6" width="40px" height="40px" key={index}/>
-                    <h6 className="text-md ml-4">{el.name}</h6>
-                </span>
-                ))}
+                        <span>
+                            <img alt="" src={el.link} className="w-6" width="40px" height="40px" key={index}/>
+                            <h6 className="text-md ml-4">{el.name}</h6>
+                        </span>
+                    ))}
                     </ul>
                     <div className="subheading mb-3">Workflow</div>
                     <ul className="fa-ul mb-0">

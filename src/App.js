@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Interests from './Interests';
 import { BrowserRouter , Routes ,Route} from 'react-router-dom';
 import Projects from './Projects';
+import Contacts from './Contacts';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/skills' key="skillKey" element={<Skills/>}></Route> 
         <Route exact path='/interests' key="interestKey" element={<Interests/>}></Route> 
         <Route exact path='/projects' key="projectKey" element={<Projects/>}></Route> 
+        <Route exact path='/contact' key="contactKey" element={<Contacts/>}></Route> 
         </Routes>
       </BrowserRouter> 
     </>
