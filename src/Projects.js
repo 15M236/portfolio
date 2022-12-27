@@ -20,22 +20,6 @@ export default function Projects() {
       txt1 : "This application list of Queries",
       txt2 : "Authorised user can update and solve the ticket",
       txt3 : "Admin and Manager can accept the user request to authorise"
-    },
-    {
-      title : "Inventory",
-      gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://zippy-froyo-4c9c24.netlify.app/",
-      txt1 : "This application developes bills according to the purchase which we made",
-      txt2 : "Admin can add a new product or delete old product from list",
-      txt3 : "Generated bills will be stored in database"
-    },
-    {
-      title : "CRM App",
-      gitUrl : "https://github.com/15M236/CRM-FSD/",
-      deployedUrl : "https://stellar-gingersnap-715f0a.netlify.app/",
-      txt1 : "This application list of Queries",
-      txt2 : "Authorised user can update and solve the ticket",
-      txt3 : "Admin and Manager can accept the user request to authorise"
     }
   ]
 
