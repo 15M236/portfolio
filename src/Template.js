@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import './Template'
 export default function Template(props) {
-  console.log(props)
   const {title , txt1 , txt2 , txt3 , gitUrl , deployedUrl } = props.value
   return (
     <Card  sx={{ 

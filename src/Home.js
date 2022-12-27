@@ -8,7 +8,6 @@ export default function Home() {
   useEffect(() => {
     function tick() {
       setFirstName(firstName + name[index.current]);
-      console.log(firstName)
       index.current++;
     }
     if(index.current < name.length){
