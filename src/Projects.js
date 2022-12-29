@@ -11,7 +11,8 @@ export default function Projects() {
       deployedUrl : "https://zippy-froyo-4c9c24.netlify.app/",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
-      txt3 : "Generated bills will be stored in database"
+      txt3 : "Generated bills will be stored in database",
+      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
     },
     {
       title : "CRM App",
@@ -19,7 +20,8 @@ export default function Projects() {
       deployedUrl : "https://stellar-gingersnap-715f0a.netlify.app/",
       txt1 : "This application list of Queries",
       txt2 : "Authorised user can update and solve the ticket",
-      txt3 : "Admin and Manager can accept the user request to authorise"
+      txt3 : "Admin and Manager can accept the user request to authorise" ,
+      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
     }
   ]
 
@@ -31,7 +33,7 @@ export default function Projects() {
           justify="center"
           spacing={2}
           style={{ marginTop: "50px" , marginLeft: "50px"}} 
-          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)' , gap : '1rem'}}
+          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)' }}
         >
         {projects.map( (project) => {
           return <Template value={project}/>

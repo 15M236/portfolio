@@ -6,13 +6,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import './Template'
 export default function Template(props) {
-  const {title , txt1 , txt2 , txt3 , gitUrl , deployedUrl } = props.value
+  const {title , txt1 , txt2 , txt3 , gitUrl , deployedUrl ,stack} = props.value
   return (
     <Card  sx={{ 
       maxWidth: 500 , border: 1 , borderRadius: '16px' , 
       borderSpacing: 3 }}>
     <CardContent>
-      <Typography sx={{ mb: 1.5  , fontSize: 20}} color="text.secondary" >
+      <Typography sx={{ mb: 1.5  , fontSize: 20 ,  fontWeight: 'bold' , textTransform: 'uppercase' , letterSpacing: 3 }} color="text.secondary" >
         {title}
       </Typography>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -26,6 +26,9 @@ export default function Template(props) {
       </Typography>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
         {txt3}
+      </Typography>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        Tech Stack used - {stack}
       </Typography>
     </CardContent>
     <CardActions>

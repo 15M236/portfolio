@@ -29,7 +29,7 @@ export default function Home() {
                         28/24 Thambi Kaliamman Kovil Street , 636001
                         <br/>
                         <>Check out my resume - </>
-                        <a href="https://stupendous-bombolone-6d079b.netlify.app/" 
+                        <a href="https://drive.google.com/file/d/1vho_Zf921LuzCo_JJXZwzruztd06L-tu/view?usp=sharing" 
                 target="_blank" rel="noreferrer">Resume</a>
                         <br/>
                         <>Click Right to send me mail</>
@@ -43,11 +43,8 @@ export default function Home() {
                         <a className="social-icon" href="https://github.com/15M236/"
                         target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
 
-                        <a className="social-icon" href="https://twitter.com/raghavanparama1" 
-                        target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
-
-                        <a className="social-icon" href="https://www.quora.com/profile/Raghavan-P-5" 
-                        target="_blank" rel="noreferrer"><i className="fab fa-quora"></i></a>
+                        <a className="social-icon" href="https://www.hackerrank.com/raghavanparamas1"
+                        target="_blank" rel="noreferrer"><i className="fa-brands fa-hackerrank"></i></a>
                     </div>
                 </div>
                 
