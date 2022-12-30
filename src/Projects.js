@@ -1,6 +1,6 @@
 import React from 'react'
 import Template from './Template'
-import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 import './Projects'
 export default function Projects() {
   
@@ -46,19 +46,18 @@ export default function Projects() {
   return (
     <>
       <h2 className="mb-5">Projects</h2>
-      <Grid 
+      <Box 
           container
           justify="center"
-          rowSpacing={3} 
           justifyContent="space-around"
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           style={{ marginTop: "20px" , marginLeft: "20px"}} 
-          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)'  , gridTemplateRows : 'repeat( 2 , 1fr)' }}
+          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 1, }}
         >
         {projects.map( (project) => {
           return <Template value={project}/>
         })}
-        </Grid>
+        </Box>
     </>
     
   )
