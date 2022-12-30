@@ -21,10 +21,10 @@ export default function Template(props) {
       <Typography sx={{ fontSize: 14 }} color="text.secondary">
         {txt1}
       </Typography>
-      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" >
         {txt2}
       </Typography>
-      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" >
         {txt3}
       </Typography>
       <Typography sx={{ fontSize: 10 }} color="text.secondary">

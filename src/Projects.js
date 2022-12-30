@@ -12,7 +12,8 @@ export default function Projects() {
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
-      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+      stack : `Authentication (OAuth / JWT) , CRUD Operations , 
+      Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     },
     {
       title : "CRM App",
@@ -21,25 +22,28 @@ export default function Projects() {
       txt1 : "This application list of Queries",
       txt2 : "Authorised user can update and solve the ticket",
       txt3 : "Admin and Manager can accept the user request to authorise" ,
-      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+      stack :`Authentication (OAuth / JWT) , CRUD Operations , 
+      Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     },
     {
       title : "Food App",
       gitUrl : "https://github.com/15M236/food-fsd-frontend/",
       deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app/",
-      txt1 : "This application list of Queries",
-      txt2 : "Authorised user can update and solve the ticket",
-      txt3 : "Admin and Manager can accept the user request to authorise" ,
-      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+      txt1 : "This application lists the food",
+      txt2 : "User can order the food with the app",
+      txt3 : "The server will updates the same to delivery and restaurant" ,
+      stack : `Authentication (OAuth / JWT) , CRUD Operations , 
+      Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     },
     {
       title : "Mobile App",
       gitUrl : "https://github.com/15M236/mobile-fsd",
       deployedUrl : "https://dapper-churros-f2bca2.netlify.app/",
-      txt1 : "This application list of Queries",
-      txt2 : "Authorised user can update and solve the ticket",
-      txt3 : "Admin and Manager can accept the user request to authorise" ,
-      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+      txt1 : "This application lists the mobile collections",
+      txt2 : "User can as per wish from the collection",
+      txt3 : "Admin can update the list and delete the collection" ,
+      stack : `Authentication (OAuth / JWT) , CRUD Operations , 
+      Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     }
   ]
 
@@ -52,7 +56,7 @@ export default function Projects() {
           justifyContent="space-around"
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           style={{ marginTop: "20px" , marginLeft: "20px"}} 
-          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 1, }}
+          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 2, }}
         >
         {projects.map( (project) => {
           return <Template value={project}/>
