@@ -9,7 +9,7 @@ export default function Template(props) {
   const {title , txt1 , txt2 , txt3 , gitUrl , deployedUrl ,stack} = props.value
   return (
     <Card  sx={{ 
-      maxWidth: 500 , border: 1 , borderRadius: '16px' , 
+      maxWidth: 400 , border: 1 , borderRadius: '16px' , 
       borderSpacing: 3 }}>
     <CardContent>
       <Typography sx={{ mb: 1.5  , fontSize: 20 ,  fontWeight: 'bold' , textTransform: 'uppercase' , letterSpacing: 3 }} color="text.secondary" >

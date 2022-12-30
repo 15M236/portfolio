@@ -22,6 +22,24 @@ export default function Projects() {
       txt2 : "Authorised user can update and solve the ticket",
       txt3 : "Admin and Manager can accept the user request to authorise" ,
       stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+    },
+    {
+      title : "Food App",
+      gitUrl : "https://github.com/15M236/food-fsd-frontend/",
+      deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app/",
+      txt1 : "This application list of Queries",
+      txt2 : "Authorised user can update and solve the ticket",
+      txt3 : "Admin and Manager can accept the user request to authorise" ,
+      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
+    },
+    {
+      title : "Mobile App",
+      gitUrl : "https://github.com/15M236/mobile-fsd",
+      deployedUrl : "https://dapper-churros-f2bca2.netlify.app/",
+      txt1 : "This application list of Queries",
+      txt2 : "Authorised user can update and solve the ticket",
+      txt3 : "Admin and Manager can accept the user request to authorise" ,
+      stack : "Authentication (OAuth / JWT) , CRUD Operations , Authorization (Admin Control & Permission) , Node with MySQL and MongoDB"
     }
   ]
 
@@ -31,9 +49,11 @@ export default function Projects() {
       <Grid 
           container
           justify="center"
-          spacing={2}
-          style={{ marginTop: "50px" , marginLeft: "50px"}} 
-          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)' }}
+          rowSpacing={3} 
+          justifyContent="space-around"
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          style={{ marginTop: "20px" , marginLeft: "20px"}} 
+          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)'  , gridTemplateRows : 'repeat( 2 , 1fr)' }}
         >
         {projects.map( (project) => {
           return <Template value={project}/>
