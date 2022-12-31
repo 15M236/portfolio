@@ -33,7 +33,7 @@ export default function Home() {
                 target="_blank" rel="noreferrer">Resume</a>
                         <br/>
                         <>Click Right to send me mail</>
-                        <a href="mailto:raghav8197@gmail.com"> Mail to</a>
+                        <a href="mailto:raghavanparamasivam@gmail.com"> Mail to</a>
                     </div>
                     <p className="lead mb-5"></p>
                     <div className="social-icons">

@@ -5,7 +5,6 @@ import axios from 'axios';
 import { useState } from 'react';
 export default function Contacts() {
     const [visible , setVisible] = useState(false)
-
     const [record , setRecord] = useState({
         name : "" ,
         email : "" ,
