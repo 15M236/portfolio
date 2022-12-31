@@ -23,7 +23,16 @@ export default function Contacts() {
       {
        console.log("Data creation successfully")
       }
+        // const timeout = setTimeout(() => {
+        //   setVisible(true)
+        // }, 3000);
         setVisible(true)
+        setRecord({
+          name : "" ,
+          email : "" ,
+          content : ""
+      })
+      setVisible(false)
     }
   return (
     <section className='contact-form'>
