@@ -55,8 +55,8 @@ export default function Projects() {
           justify="center"
           justifyContent="space-around"
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          style={{ marginTop: "20px" , marginLeft: "20px"}} 
-          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 2, }}
+          style={{ marginTop: "20px" , marginLeft: "20px" , marginRight: "20px"}} 
+          sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 2, columnGap: 2}}
         >
         {projects.map( (project) => {
           return <Template value={project}/>
