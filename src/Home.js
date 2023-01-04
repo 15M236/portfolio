@@ -29,7 +29,7 @@ export default function Home() {
                         28/24 Thambi Kaliamman Kovil Street , 636001
                         <br/>
                         <>Check out my resume - </>
-                        <a href="https://drive.google.com/file/d/1vho_Zf921LuzCo_JJXZwzruztd06L-tu/view?usp=sharing" 
+                        <a href="https://drive.google.com/file/d/1F_rr41bQeZiIIX325QZ9nrID7XlPQSwN/view" 
                 target="_blank" rel="noreferrer">Resume</a>
                         <br/>
                         <>Click Right to send me mail</>

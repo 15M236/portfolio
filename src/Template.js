@@ -27,10 +27,10 @@ export default function Template(props) {
       <Typography sx={{ fontSize: 14 }} color="text.secondary" >
         {txt3}
       </Typography>
-      <Typography sx={{ fontSize: 10 }} color="text.secondary">
+      <Typography sx={{ fontSize: 12 }} color="text.secondary">
         Tech Stack used :-
       </Typography>
-      <Typography sx={{ fontSize: 8 }} color="text.secondary" gutterBottom>
+      <Typography sx={{ fontSize: 12 }} color="text.secondary" gutterBottom>
         {stack}
       </Typography>
     </CardContent>

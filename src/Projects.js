@@ -8,12 +8,12 @@ export default function Projects() {
     {
       title : "Inventory",
       gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://zippy-froyo-4c9c24.netlify.app/",
+      deployedUrl : "https://front-end--remarkable-bonbon-9d28aa.netlify.app/",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
       stack : `Authentication (OAuth / JWT) , CRUD Operations , 
-      Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
+      Authorization (Admin Control & Permission) , Node with MongoDB`
     },
     {
       title : "CRM App",
@@ -55,7 +55,7 @@ export default function Projects() {
           justify="center"
           justifyContent="space-around"
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          style={{ marginTop: "20px" , marginLeft: "20px" , marginRight: "20px"}} 
+          style={{ margin: "20px"}} 
           sx={{ display : 'grid' , gridTemplateColumns : 'repeat( 2 , 1fr)', rowGap: 2, columnGap: 2}}
         >
         {projects.map( (project) => {
