@@ -38,10 +38,10 @@ export default function Projects() {
     {
       title : "Mobile App",
       gitUrl : "https://github.com/15M236/mobile-fsd",
-      deployedUrl : "https://dapper-churros-f2bca2.netlify.app/",
+      deployedUrl : "https://front-end--dapper-churros-f2bca2.netlify.app/",
       txt1 : "This application lists the mobile collections",
-      txt2 : "User can as per wish from the collection",
-      txt3 : "Admin can update the list and delete the collection" ,
+      txt2 : "Basic application in order to understand the access control",
+      txt3 : "Admin can delete the collection" ,
       stack : `Authentication (OAuth / JWT) , CRUD Operations , 
       Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     }
