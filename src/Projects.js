@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title : "Inventory",
       gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://front-end--remarkable-bonbon-9d28aa.netlify.app/",
+      deployedUrl : "https://velvety-medovik-54dda5.netlify.app",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
@@ -18,7 +18,7 @@ export default function Projects() {
     {
       title : "CRM App",
       gitUrl : "https://github.com/15M236/CRM-FSD/",
-      deployedUrl : "https://stellar-gingersnap-715f0a.netlify.app/",
+      deployedUrl : "https://frontend--stellar-gingersnap-715f0a.netlify.app",
       txt1 : "This application list of Queries",
       txt2 : "Authorised user can update and solve the ticket",
       txt3 : "Admin and Manager can accept the user request to authorise" ,
@@ -28,7 +28,7 @@ export default function Projects() {
     {
       title : "Food App",
       gitUrl : "https://github.com/15M236/food-fsd-frontend/",
-      deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app/",
+      deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app",
       txt1 : "This application lists the food",
       txt2 : "User can order the food with the app",
       txt3 : "The server will updates the same to delivery and restaurant" ,
