@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title : "Inventory",
       gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://velvety-medovik-54dda5.netlify.app",
+      deployedUrl : "https://zippy-froyo-4c9c24.netlify.app",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
@@ -37,11 +37,11 @@ export default function Projects() {
     },
     {
       title : "Mobile App",
-      gitUrl : "https://github.com/15M236/mobile-fsd",
-      deployedUrl : "https://front-end--dapper-churros-f2bca2.netlify.app/",
+      gitUrl : "https://github.com/15M236/mobile-react",
+      deployedUrl : "https://main--amazing-moonbeam-73a6cd.netlify.app",
       txt1 : "This application lists the mobile collections",
-      txt2 : "Basic application in order to understand the access control",
-      txt3 : "Admin can delete the collection" ,
+      txt2 : "Admin can add a new product or delete old product from list",
+      txt3 : "user can add his favourite product in Cart",
       stack : `Authentication (OAuth / JWT) , CRUD Operations , 
       Authorization (Admin Control & Permission) , Node with MySQL and MongoDB`
     }
