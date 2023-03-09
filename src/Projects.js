@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title : "Inventory",
       gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://zippy-froyo-4c9c24.netlify.app",
+      deployedUrl : "https://front-end--zippy-froyo-4c9c24.netlify.app/",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
@@ -18,7 +18,7 @@ export default function Projects() {
     {
       title : "CRM App",
       gitUrl : "https://github.com/15M236/CRM-FSD/",
-      deployedUrl : "https://frontend--stellar-gingersnap-715f0a.netlify.app",
+      deployedUrl : "https://frontend--stellar-gingersnap-715f0a.netlify.app/",
       txt1 : "This application list of Queries",
       txt2 : "Authorised user can update and solve the ticket",
       txt3 : "Admin and Manager can accept the user request to authorise" ,
@@ -27,8 +27,8 @@ export default function Projects() {
     },
     {
       title : "Food App",
-      gitUrl : "https://github.com/15M236/food-fsd-frontend/",
-      deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app",
+      gitUrl : "https://main--symphonious-bombolone-bb1f11.netlify.app",
+      deployedUrl : "https://main--symphonious-bombolone-bb1f11.netlify.app/",
       txt1 : "This application lists the food",
       txt2 : "User can order the food with the app",
       txt3 : "The server will updates the same to delivery and restaurant" ,
@@ -38,7 +38,7 @@ export default function Projects() {
     {
       title : "Mobile App",
       gitUrl : "https://github.com/15M236/mobile-react",
-      deployedUrl : "https://main--amazing-moonbeam-73a6cd.netlify.app",
+      deployedUrl : "https://amazing-moonbeam-73a6cd.netlify.app/",
       txt1 : "This application lists the mobile collections",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "user can add his favourite product in Cart",
