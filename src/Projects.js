@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title : "Inventory",
       gitUrl : "https://github.com/15M236/capstone-fsd",
-      deployedUrl : "https://front-end--zippy-froyo-4c9c24.netlify.app/",
+      deployedUrl : "https://zippy-froyo-4c9c24.netlify.app",
       txt1 : "This application developes bills according to the purchase which we made",
       txt2 : "Admin can add a new product or delete old product from list",
       txt3 : "Generated bills will be stored in database",
