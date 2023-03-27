@@ -28,7 +28,7 @@ export default function Projects() {
     {
       title : "Food App",
       gitUrl : "https://github.com/15M236/food-fsd",
-      deployedUrl : "https://symphonious-bombolone-bb1f11.netlify.app",
+      deployedUrl : "https://main--symphonious-bombolone-bb1f11.netlify.app",
       txt1 : "This application lists the food",
       txt2 : "User can order the food with the app",
       txt3 : "The server will updates the same to delivery and restaurant" ,
