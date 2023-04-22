@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState , useEffect , useRef} from 'react'
+import { Icon } from '@iconify/react';
 export default function Home() {
   const [firstName , setFirstName ] = useState("")
   const name = " Raghavan..!"
@@ -44,8 +45,12 @@ export default function Home() {
                         target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
 
                         <a className="social-icon" href="https://www.hackerrank.com/raghavanparamas1"
-                        target="_blank" rel="noreferrer"><i className="fa-brands fa-hackerrank"></i></a>
-                    </div>
+                        target="_blank" rel="noreferrer"><Icon icon="simple-icons:hackerrank" /></a>
+
+                        <a className="social-icon" href="https://leetcode.com/raghav8197"
+                        target="_blank" rel="noreferrer"><Icon icon="simple-icons:leetcode" /></a>
+
+                      </div>
                 </div>
                 
             </section>
